@@ -16,6 +16,7 @@ pipeline {
             }
             steps {
                 sh '''
+                    echo 'Testing again'
                     echo 'Small change'
                     ls -la
                     node --version
